@@ -1,7 +1,7 @@
 <project name="ConvertNumberstoWord" default="compile" basedir=".">
    <description>Project build file</description>
    <property name="jar" value="ConvertNumberstoWord.jar"/>
-   <property name="main-class" value="default package.ConverNumberstoWordMain"/>
+   <property name="main-class" value="ConverNumberstoWordMain"/>
    <path id="class.path">
       <fileset dir="lib">
          <include name="**/*.jar"/>
