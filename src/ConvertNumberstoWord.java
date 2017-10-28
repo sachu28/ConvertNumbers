@@ -32,9 +32,15 @@ public class ConvertNumberstoWord
             }
 
  
-          return units[n / 100] + " Hundred" + ((n % 100 != 0) ? " " : "") + convert(n % 100);
+          if (n <1000) {
+        	  return units[n / 100] + " Hundred" + ((n % 100 != 0) ? " " : "") + convert(n % 100);
+          }
              
+       
+          return "Invalid";
+        
+       
+       
         }
-
-           
+          
 }

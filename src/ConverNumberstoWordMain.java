@@ -22,11 +22,11 @@ public class ConverNumberstoWordMain {
              if (choice.equals("0")) {
                  System.out.println("Exit");
                  break;
-             }else if (n >= 1000 || n < 0){
-                 System.out.println("Invalid Number Only Enter number between 0-999");
-             }
+             } else if ( n < 0){
+                 System.out.println("Invalid");
+            }
                             
-             else System.out.println(NumberFormat.getInstance().format(n) + "='" + cntw.convert(n) + "'");
+             else System.out.println("'" + cntw.convert(n) + "'");
 
              
          }

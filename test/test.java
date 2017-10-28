@@ -28,5 +28,12 @@ public class test {
         
     }
 
+    @Test
+public void Invalid() {
+    
+    Assert.assertEquals( "1000" , "Invalid" , convernum.convert(1000));
+    
+}
+
 }
 
