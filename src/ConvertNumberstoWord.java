@@ -1,6 +1,6 @@
 
 public class ConvertNumberstoWord 
-
+//convert numbers to word logic
 {
   
         public static final String[] units = { "", "One", "Two", "Three", "Four",
