@@ -1,7 +1,7 @@
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-
+//converting numbers
 public class ConverNumberstoWordMain {
 
     public static void main(final String[] args) {
