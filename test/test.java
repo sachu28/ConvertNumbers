@@ -10,21 +10,21 @@ public class test {
     @Test
     public void UnitToUnits() {
       
-        Assert.assertEquals( "1" , "One" , convernum.convert(1));
+        Assert.assertEquals( "5" , "five" , convernum.convert(5));
         
     }
 
     @Test
     public void TenToTens() {
       
-        Assert.assertEquals( "19" , "Nineteen" , convernum.convert(19));
+        Assert.assertEquals( "29" , "Twentynine" , convernum.convert(29));
         
     }
 
     @Test
     public void HundredToHundreds() {
       
-        Assert.assertEquals( "878" , "Eight Hundred Seventy Eight" , convernum.convert(878));
+        Assert.assertEquals( "870" , "Eight Hundred Seventy" , convernum.convert(870));
         
     }
 
